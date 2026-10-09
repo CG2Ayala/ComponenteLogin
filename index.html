@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdminExpress - Sign In</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="login">
+
+    <section class="login__brand">
+      <h1 class="brand__name">AdminExpress</h1>
+    </section>
+
+    <!-- Panel derecho: formulario -->
+    <section class="login__panel">
+      <div class="login__content">
+
+        <header class="login__header">
+          <h2 class="login__title">Let's <strong>Sign In</strong> 👇 </h2>
+          <p class="login__subtitle">Hey, Enter your details to get sign in<br>to your account.</p>
+        </header>
+
+        <form class="form" action="#" method="post">
+
+          <div class="form__group">
+            <label class="form__label" for="email">Email</label>
+            <div class="form__field">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                <path d="M3 7l9 6 9-6"/>
+              </svg>
+              <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="password">Password</label>
+            <div class="form__field">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="5" y="11" width="14" height="9" rx="2"/>
+                <path d="M8 11V8a4 4 0 0 1 8 0v3"/>
+              </svg>
+              <input type="password" id="password" name="password" placeholder="Enter Password" required>
+              <svg class="icon icon--eye" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+          </div>
+
+          <a href="#" class="form__forgot">Forgot password?</a>
+
+          <button type="submit" class="btn">Sign In</button>
+
+        </form>
+
+        <p class="login__signup">Don't have an account? <a href="#">Sign Up</a></p>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
